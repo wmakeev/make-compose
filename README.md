@@ -18,7 +18,7 @@ interface Stamp (options?: Object|Any, ...args?: Any[]) => Any; {
 
 Initializer(options?: object, ?: { stamp: Stamp, instance: Any, args: Any[] }) => instance: Void|Any
 
-ingerface Descriptor {
+interface Descriptor {
   methods?: Object,
   properties?: Object,
   deepProperties?: Object,
