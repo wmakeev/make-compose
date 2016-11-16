@@ -1,6 +1,6 @@
 {
   "name": "make-compose",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hackable implementation of the 'compose' specification",
   "main": "build/index.js",
   "scripts": {
@@ -41,7 +41,10 @@
     "tap-min": "^1.1.0"
   },
   "dependencies": {
-    "lodash": "^4.5.1"
+    "lodash.assign": "^4.2.0",
+    "lodash.isfunction": "^3.0.8",
+    "lodash.isobject": "^3.0.2",
+    "lodash.mergewith": "^4.6.0"
   },
   "babel": {
     "presets": [

@@ -1,7 +1,7 @@
-import mergeWith from 'lodash/mergeWith';
-import assign from 'lodash/assign';
-import isFunction from 'lodash/isFunction';
-import isObject from 'lodash/isObject';
+import mergeWith from 'lodash.mergewith';
+import assign from 'lodash.assign';
+import isFunction from 'lodash.isfunction';
+import isObject from 'lodash.isobject';
 
 const isDescriptor = isObject;
 const isComposable = isObject;
